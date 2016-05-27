@@ -1,0 +1,54 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+.agolmap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.agolmap iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+   font-size: 1.4em;
+   color: #808080;
+}
+#header .mini-cart > li a.cart-parent mark {
+   background: #8C683C none repeat scroll 0% 0% padding-box;
+ 
+}
+.widget ul li a {
+   color: #8C683C;
+}
+#sub-feature #features ul li a.read-more:hover {
+   background: #8C683C url("images/ico-arrow-features.png") no-repeat scroll center center;
+   
+}
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media only screen and (min-width: 768px) {
+	/* Desktop styles go here */
+}
+

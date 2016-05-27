@@ -1,0 +1,29 @@
+/*---Donate Link----*/
+.donate {
+
+	background-color: #d9b65d;
+	color: #ffffff; 
+	display: inline-block;
+	float: left; 
+	
+	width: 100px; 
+
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	padding-right: 0.618em;
+	padding-left: 0.618em;
+
+	margin: 0 1em 1em 0.541em;
+	text-align: center;
+	letter-spacing: 0.08em;
+
+	font-size: 1.25em;
+	font-weight: bold;
+	
+	border-color: #d9b65d;
+	border-style: solid;
+	border-width: medium;
+	
+	cursor: pointer;
+  
+}
